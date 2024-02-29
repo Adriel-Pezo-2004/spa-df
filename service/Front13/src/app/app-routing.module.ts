@@ -6,9 +6,10 @@ import { IssueComponent } from './issue/issue.component';
 
 const routes: Routes = [
 
-  { path: 'app-date', component: DateComponent },
-  { path: 'Service', component: ServiceComponent },
-  { path: 'Issue', component: IssueComponent },
+
+  { path: 'date', component: DateComponent },
+  { path: 'service', component: ServiceComponent },
+  { path: 'issue', component: IssueComponent },
 
 ];
 
